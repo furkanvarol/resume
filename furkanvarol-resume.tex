@@ -1,0 +1,254 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% Editor:
+% Furkan Varol
+%
+% Repository:
+% https://github.com/furkanvarol/resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{furkanvarol-resume}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{1pt}}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Furkan}{Varol}{ \urlstyle{same}\href{http://www.furkanvarol.com}{furkanvarol.com} | Istanbul, Turkey \\
+\href{mailto:furkanvarol@gmail.com}{furkanvarol@gmail.com} | \href{mailto:furkanvarol@hotmail.com}{furkanvarol@hotmail.com} | +90 535 6450293
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+
+\subsection{Yildiz Technical Uni.}
+\descript{MEng in Computer Engineering}
+\location{Started Feb 2016 | Istanbul, Turkey}
+\sectionsep
+
+\subsection{Fatih University}
+\descript{BS in Computer Engineering}
+\location{Grad. June 2014 | Istanbul, Turkey}
+\location{CGPA: 3.72 / 4.0}
+\sectionsep
+
+\subsection{FH Vorarlberg}
+\descript{BS in Computer Science, Erasmus}
+\location{Feb - June 2012 | Dornbirn, Austria}
+\location{CGPA: 3.67 / 4.0}
+\sectionsep
+
+\subsection{Yavuz Selim College}
+\location{Grad. June 2007 | Elazig, Turkey}
+\location{CGPA: 4.78 / 5.0}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links}
+Github:// \href{https://github.com/furkanvarol}{\bf furkanvarol} \\
+LinkedIn://  \href{https://tr.linkedin.com/in/furkanvarol}{\bf furkanvarol} \\
+Facebook:// \href{https://www.facebook.com/furkanvrl}{\bf furkanvrl} \\
+Twitter://  \href{https://twitter.com/furkan_varol}{\bf @furkan\_varol} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Love:}
+Java \textbullet{} Scala \textbullet{} C\# \textbullet{} Python \\
+Android \textbullet{} Spring \textbullet{} Play \\
+Spark \textbullet{} Hadoop \textbullet{} AWS \\
+IntelliJ IDEA \textbullet{} Sublime \textbullet{} ViM \textbullet{} Git \\
+RFID \textbullet{} NFC \textbullet{} BLE \textbullet{} Beacon \\
+\location{Like:}
+C \textbullet{} C++ \textbullet{} Javascript \\
+GWT, SmartGWT \textbullet{} .Net \textbullet{} AngularJS \\
+Redis \textbullet{} RabbitMQ \\
+MySQL \textbullet{} MS SQL \textbullet{} SQLite \\
+\location{Familiar:}
+Ruby \textbullet{} MongoDB \textbullet{} iOS \textbullet{} TeX
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards}
+
+\subsection{High Honor Student}
+\descript{Fatih University}
+\location{2010 - 2014 | Istanbul, Turkey}
+\sectionsep
+
+\subsection{Full Scholarships}
+\descript{Fatih University}
+\location{2009 - 2014 | Istanbul, Turkey}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     REFERENCES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{References}
+\location{Available upon request}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.66\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{VNGRS}
+\descript{| Software Developer}
+\location{June 2015 - Present | Istanbul, Turkey}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Lead and developed sentiment analysis system to report affects of society sentiment on sales.
+\item Lead and developed customer unification system.
+\item Maintained, optimised and developed new features on Convertale project.
+Convertale is a simple, fast and real time plug and play recommendation engine for e-retailers and news portals.
+Convertale is highly scalable and works as a Software as a Service on top of Amazon Web Services.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Vendeka}
+\descript{| Software Developer}
+\location{Dec 2013 - May 2015 | Istanbul, Turkey}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Developed SenseBlue project which uses Apple's iBeacon technology.
+SenseBlue allows people to be tracked (with proximity) by smart devices.
+Also allows to track objects for cheaper warehouse management solutions - alternative to RFID systems like Akdeniz (Android, Linux and Windows).
+\item Developed new features and fixed bugs on existing Akdeniz project.
+Akdeniz is a Smart Warehouse Management System with RFID Technologies. Modules are AkdenizServer (Java), AkdenizWeb (admin panel - GWT, SmartGWT), 
+AkdenizDesktop (handles RFID operations such as checking products on a shipment - Windows) and
+AkdenizForklift (manages operations such as associating a product with a shelf).
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Fatih University}
+\descript{| Computer Engineer Student}
+\location{Dec 2013 -€“ May 2014 | Istanbul, Turkey}
+\begin{tightemize}
+\item Lead and developed mobiCard (a NFC loyalty system, works Software as a Service).
+This project consists of a NFC enabled terminal (Android),
+one Web App (mobiCard REST API - Scala, Play Framework),
+a Website and an Android Client App (shows loyalty progress).
+\end{tightemize}
+\sectionsep
+
+\runsubsection{FH Vorarlberg}
+\descript{| Computer Science Student}
+\location{Mar 2013 - June 2013 | Dornbirn, Austria}
+\begin{tightemize}
+\item Lead and developed a mobile chat app (Nearby Chat) which does not require a server.
+App only works on devices in same network (WiFi).
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Cyclops Inf. Tech.}
+\descript{| Android Developer Intern}
+\location{July 2012 -€“ Aug 2012 | Istanbul, Turkey}
+\begin{tightemize}
+\item Developed and optimised a client for a working tracking system.
+System is designed for to track Android phone user and send data to server.
+On the web, user (employer) can check whereabouts his/her employee.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Gripati Digital Ent.}
+\descript{| Android and iOS Developer Intern}
+\location{Nov 2011 -€“ June 2012 | Istanbul, Turkey}
+\begin{tightemize}
+\item Developed and optimised iPhone and Android game (CorridorFly) and a front-end control layer
+between Unity 3D Game Engine and XCode.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+\runsubsection{Shelf Sort}
+\descript{| Researcher}
+\location{Jan 2015 â€“ Present | Istanbul, Turkey}
+Worked with \textbf{Assist. Prof. Dr. Ä°hsan Haluk AkÄ±n} to develop new sorting algorithm
+based on \textbf{Library Sort} (puts gaps to accelerate \textbf{Insertion Sort}).
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Awards}
+%\begin{tabular}{rll}
+%2013  & High Honor Student, Fatih University, Turkey\\
+%2012  & High Honor Student, Fatih University, Turkey\\
+%2011  & High Honor Student, Fatih University, Turkey\\
+%2010  & High Honor Student, Fatih University, Turkey\\
+%2009  & Acceptance on Fatih University, Turkey with \%100 Scholarships\\
+%\end{tabular}
+%\sectionsep
+
+\end{minipage}
+\end{document}
+\documentclass[]{article}
