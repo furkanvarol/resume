@@ -1,11 +1,11 @@
 Furkan Varol Resume
 ===================
 
-This repo contains info about Furkan VAROL ([download resume](https://github.com/furkanvarol/resume/raw/master/furkanvarol-resume.pdf)).
+This repo contains info about Furkan VAROL ([view][1] or [download][2] resume).
 
 ## Template
 
-Template is copied from Debarghya Das' Deedy Resume template ([original repo](https://github.com/deedy/Deedy-Resume)).
+Template is copied from Debarghya Das' Deedy Resume template ([original repo][3]).
 
 ## Dependencies
 
@@ -32,3 +32,7 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+  [1]: https://github.com/furkanvarol/resume/blob/master/furkanvarol-resume.pdf
+  [2]: https://github.com/furkanvarol/resume/raw/master/furkanvarol-resume.pdf
+  [3]: https://github.com/deedy/Deedy-Resume
