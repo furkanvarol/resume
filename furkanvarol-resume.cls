@@ -18,6 +18,8 @@
 \usepackage[UKenglish]{isodate}
 \usepackage{fontspec,xltxtra,xunicode}
 
+\linespread{1.05}
+
 % Cite publications
 \usepackage{cite}
 \renewcommand\refname{\vskip -1.5cm}
@@ -38,13 +40,13 @@
 \setlength{\TPVertModule}{1mm}
 \textblockorigin{0mm}{5mm} % start everyth
 \newcommand{\lastupdated}{\begin{textblock}{60}(155,0)
-\color{date}\fontspec{Helvetica Neue Light}\fontsize{8pt}{10pt}\selectfont 
+\color{date}\fontspec{Helvetica Neue Light}\fontsize{8pt}{9pt}\selectfont 
 Last Updated on
 \today
 \end{textblock}}
 
 \newcommand{\leftdetails}[1]{\begin{textblock}{60}(170,5)
-\color{date}\fontspec{Helvetica Neue Light}\fontsize{8pt}{10pt}\selectfont 
+\color{date}\fontspec{Helvetica Neue Light}\fontsize{7pt}{9pt}\selectfont 
 #1
 \end{textblock}}
 
@@ -65,26 +67,26 @@ Last Updated on
 
 % Headings command
 \titleformat{\section}{\color{headings}
-\scshape\fontspec{Helvetica Light}\fontsize{16pt}{24pt}\selectfont \raggedright\uppercase}{} {0em}{}
+\scshape\fontspec{Helvetica Light}\fontsize{12pt}{20pt}\selectfont \raggedright\uppercase}{} {0em}{}
 
-% Subeadings command
+% Subheadings command
 \titleformat{\subsection}{\color{subheadings}
-\fontspec{Helvetica}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase}{}{0em}{}
+\fontspec{Helvetica}\fontsize{11pt}{11pt}\selectfont\bfseries\uppercase}{}{0em}{}
 \titlespacing{\subsection}{0pt}{\parskip}{-\parskip}
 \titlespacing{\subsubsection}{0pt}{\parskip}{-\parskip}
-\newcommand{\runsubsection}[1]{\color{subheadings}
-\fontspec{Helvetica}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
+\newcommand{\runsubsection}[1]{
+\color{subheadings}
+\fontspec{Helvetica}\fontsize{11pt}{11pt}\selectfont\bfseries\uppercase {#1} \normalfont
+}
 
 % Descriptors command
-\newcommand{\descript}[1]{\color{subheadings}\raggedright\scshape\fontspec{Heiti SC Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
+\newcommand{\descript}[1]{\color{subheadings}\raggedright\scshape\fontspec{Heiti SC Medium}\fontsize{10pt}{12pt}\selectfont {#1 \\} \normalfont}
 
 % Location command
-\newcommand{\location}[1]{\color{headings}\raggedright\scshape\fontspec{Heiti TC Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
+\newcommand{\location}[1]{\color{headings}\raggedright\scshape\fontspec{Heiti TC Medium}\fontsize{8pt}{10pt}\selectfont {#1\\} \normalfont}
 
-% Section seperators command
+% Section separators command
 \newcommand{\sectionsep}[0]{\vspace{8pt}}
 
 % Bullet Lists with fewer gaps command
-\newenvironment{tightemize}{\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}{\end{itemize}\vspace{-\topsep}}
-
-
+\newenvironment{tightemize}{ \vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}{\end{itemize}\vspace{-\topsep}}
