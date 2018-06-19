@@ -16,7 +16,7 @@ Template is copied from Debarghya Das' Deedy Resume template ([original repo][3]
 
 ### Info
 
-Well, info in the resume is belong to Furkan Varol but you can do whatever you want other than spamming (please don't).
+Please do not spam me using this information.
 
 ### Template
 Copyright 2014 Debarghya Das
